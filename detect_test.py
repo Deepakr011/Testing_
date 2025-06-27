@@ -17,6 +17,7 @@ def run_yolov8(model_path, image_path, output_path):
     print(f"Output saved to: {output_path}")
 
 if __name__ == "__main__":
+    print("welcome to the project")
     model_path = r"D:\detection_project\best (14).pt"
     image_path = r"D:\detection_project\036_0_jpg.rf.02f5cd69c73723649bbf9c74c3bb276a.jpg"
     output_path = r"D:\detection_project\output_image.jpg"
